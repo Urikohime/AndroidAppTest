@@ -1,0 +1,38 @@
+﻿<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="Congratulations!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/regsuccess_info_header"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold|italic"
+        android:paddingTop="40dp"
+        android:layout_centerInParent="true"
+        android:textSize="40dp"
+        android:typeface="monospace" />
+    <Button
+        android:text="Back"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:id="@+id/regscreen_success_back_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"/>
+    <TextView
+        android:text="The registration was successful!\nYou can go back to the main menu."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/regsuccess_info_header"
+        android:id="@+id/regsuccess_info_body"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:typeface="monospace" />
+</RelativeLayout>

@@ -1,0 +1,29 @@
+﻿<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:text="Connecting..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/connection_info_header"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold|italic"
+        android:paddingTop="40dp"
+        android:layout_centerInParent="true"
+        android:textSize="40dp"
+        android:typeface="monospace" />
+    <TextView
+        android:text="Please wait while trying to connect..."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/connection_info_header"
+        android:id="@+id/connection_info_body"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:typeface="monospace" />
+</RelativeLayout>

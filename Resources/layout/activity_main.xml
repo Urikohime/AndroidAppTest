@@ -1,0 +1,37 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:text="Hello!\nThis is just a test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView1"
+        android:layout_alignParentTop="true"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:text="Register"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:id="@+id/register_btn"
+        android:layout_alignParentBottom="true"
+        android:fadeScrollbars="true"
+        android:scrollbars="vertical"
+        android:layout_alignParentLeft="true"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:text="Login"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:id="@+id/login_btn"
+        android:layout_alignParentBottom="true"
+        android:fadeScrollbars="true"
+        android:scrollbars="vertical"
+        android:layout_alignParentRight="true"
+        tools:ignore="HardcodedText" />
+</RelativeLayout>
